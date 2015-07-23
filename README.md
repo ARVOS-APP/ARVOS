@@ -1,9 +1,9 @@
 # ARVOS
 ARVOS - AR Viewer Open Source - An open source augmented reality viewer - http://www.arvos-app.com
 
-ARVOS System Description
+System Description
 
-ARVOS http://www.arvos-app.com/  is a geolocative augmented reality (AR) platform initiated by Peter Graf as an open source system. This System Description describes the platform and which components have yet to be implemented. Core functionality for the client has been implemented for 2d augments. Server functionality must be still developed, and core client functionality extended (for instance for 3d objects).
+ARVOS is a geolocative augmented reality (AR) platform initiated as an open source system. This System Description describes the platform and which components have yet to be implemented. Core functionality for the client has been implemented for 2d augments. Server functionality must be still developed, and core client functionality extended (for instance for 3d objects).
 
  
 Human Actors
@@ -81,4 +81,4 @@ Author uses Administration Interface to register augments with Directory Server 
     Store attributes of augments on web service
     Directory server provides list of available augments to client.
 
-Generated on Sat Feb 23 2013 17:25:21 for ArViewer by   doxygen 1.8.3.1 
+
