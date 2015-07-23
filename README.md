@@ -7,8 +7,7 @@ The Android version: https://github.com/peterGraf/ArViewer_Android
 
 The iOS Version: https://github.com/peterGraf/ArViewer_iOS
 
-
-System Description
+<B>System Description</B>
 
 ARVOS is a geolocative augmented reality (AR) platform initiated as an open source system. This System Description describes the platform and which components have yet to be implemented. Core functionality for the client has been implemented for 2d augments. Server functionality must be still developed, and core client functionality extended (for instance for 3d objects).
 
