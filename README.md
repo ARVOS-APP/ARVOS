@@ -1,5 +1,5 @@
 # ARVOS
-ARVOS - AR Viewer Open Source - An open source augmented reality viewer - http://www.arvos-app.com
+<B>ARVOS</B> - <B>AR</B> <B>V</B>iewer <B>O</B>pen <B>S</B>ource - An open source augmented reality viewer - http://www.arvos-app.com
 
 <B>Components</B>
 
