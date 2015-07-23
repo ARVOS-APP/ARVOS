@@ -5,7 +5,7 @@ Components:
 
 The Android version: https://github.com/peterGraf/ArViewer_Android
 
-The IOs Version: https://github.com/peterGraf/ArViewer_iOS
+The iOS Version: https://github.com/peterGraf/ArViewer_iOS
 
 
 System Description
