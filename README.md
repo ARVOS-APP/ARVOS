@@ -1,7 +1,7 @@
 # ARVOS
 ARVOS - AR Viewer Open Source - An open source augmented reality viewer - http://www.arvos-app.com
 
-Components:
+<ul>Components</ul>
 
 The Android version: https://github.com/peterGraf/ArViewer_Android
 
