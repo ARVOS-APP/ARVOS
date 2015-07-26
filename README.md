@@ -9,7 +9,7 @@ The iOS Version: https://github.com/peterGraf/ArViewer_iOS
 
 <B>System Description</B>
 
-ARVOS is a geolocative augmented reality (AR) platform initiated as an open source system. This System Description describes the platform and which components have yet to be implemented. Core functionality for the client has been implemented for 2d augments. Server functionality must be still developed, and core client functionality extended (for instance for 3d objects).
+ARVOS is a geolocative augmented reality (AR) platform initiated as an open source system. This System Description describes the platform and which components have yet to be implemented. Core functionality for the client has been implemented for 2d objects. Server functionality must be still developed, and core client functionality extended (for instance for 3d objects).
 
  
 Human Actors
