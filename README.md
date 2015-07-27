@@ -7,7 +7,9 @@ The Android version: https://github.com/peterGraf/ArViewer_Android
 
 The iOS Version: https://github.com/peterGraf/ArViewer_iOS
 
-The augments server: https://github.com/Omarasifshaikh/Arvos-server
+The directory service: 
+
+The augments service: https://github.com/Omarasifshaikh/Arvos-server
 
 <B>System Description</B>
 
@@ -23,36 +25,43 @@ Human Actors
 ARVOS System Components
 
     Client app (implement in both Android and iOS mobile devices).
-    Directory Server (manages list of available augments and their properties, such as GPS location, size, scale etc.).
-    Augment Server (stores all augments and their media).
-    Augment Administration Interface (registers augments and their media stored on Augment Server with augment definitions and properties defined on Directory Server).
+    Directory Service (manages list of available channels of augments and their properties, such as author, description, GPS location, etc.).
+    Augment Service (stores all augments and their media).
+    Channel Administration Interface (registers augments and their media stored on Augment Service with channel definitions and properties defined on Directory Service).
 
  
 Requirements on the ARVOS System Components
 
-    Client retrieves list of augments available at current GPS location from directory server.
-    Client shows list of available augments to user.
-    Client retrieves augment selected by user from Augment Server.
-    Client shows retrieved augment to user as geopositioned 2d or 3d overlay on back camera (AR camera). The augment is NOT locked to the display coordinates.
-    URL to specific augment launches client, retrieves augment from Augment Server and shows it to user.
-    Author uses Administration Interface to upload media for augments to Augment Server.
-    Author uses Administration Interface to register augments with Directory Server.
+    - Client retrieves list of channels available at current GPS location from directory service.
+    - Client searches for list of channels available at current GPS location from directory service.
+    - Client shows list of available channels to user.
+    - Client retrieves augment of channel selected by user from Augment Service.
+    - Client shows retrieved augment to user as geopositioned 2d or 3d overlay on back camera (AR camera). The augment is NOT locked to the display coordinates.
+    - URL to specific channel launches client, retrieves channel's augment from Augment Service and shows it to user.
+    - Author uses Administration Interface to upload media for augments to Augment Service.
+    - Author uses Administration Interface to register channel with Directory Service.
 
  
-Client retrieves list of available augments from directory server (implemented)
+Client retrieves list of channels available at current GPS location from directory service (implemented)
 
-    Location information from the device used to determine which augments to list (implemented).
+    Location information from the device used to determine which channels to list (implemented).
     Retrieval done via http (implemented).
     Content encoded as JSON (implemented).
 
-Client shows list of available augments to user (implemented)
+Client searches for list of channels available at current GPS location from directory service (implemented)
+
+    Location information from the device used to determine which channels to list.
+    Searches can be done by channel name or author name.
+    Retrieval done via http (implemented).
+    Content encoded as JSON (implemented).
+    
+Client shows list of available channels to user (implemented)
 
     Title (implemented).
     Author (implemented).
     Thumbnail (implemented).
-
  
-Client retrieves augment selected by user from Augment Server (implemented)
+Client retrieves augment of channel selected by user from Augment Service (implemented)
 
     Retrieval done via http (implemented).
     Content encoded as JSON (implemented).
@@ -72,21 +81,21 @@ Client shows retrieved augment to user (partially implemented)
         animatable (transform, rotate, scale, swap (implemented).
         should be able to link to other online content (webpages, etc) (implemented).
 
-Author uses Administration Interface to upload augments to Augment Server (not implemented)
+Author uses Administration Interface to upload augments to Augment Service (not implemented)
 
     Web service with html interface
     Author registration, login and authentication required.
     Upload, view and delete media files for augments.
     Store media files for augments on web service
-    Augment Server provides augment selected by user to client.
+    Augment service provides augment selected by user to client.
 
  
-Author uses Administration Interface to register augments with Directory Server (not implemented)
+Author uses Administration Interface to register channels with Directory Service (not implemented)
 
     Web service with html interface
     Author registration, login and authentication required.
-    Upload, view and delete attributes of augments.
-    Store attributes of augments on web service
-    Directory server provides list of available augments to client.
+    Upload, view and delete attributes of channels.
+    Store attributes of channels on web service
+    Directory service provides list of available channels to client.
 
 
