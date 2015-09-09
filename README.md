@@ -5,11 +5,11 @@
 
 <UL>>> Client</UL>
 
-ARVOS-Client Android with 2d augments only: https://github.com/peterGraf/ArViewer_Android
+ARVOS-Client Android with 2d augments only: https://github.com/ARVOS-APP/ArViewer_Android
 
-ARVOS-Client Android with integration of the gameplay 3d library: https://github.com/peterGraf/ArViewerGameplay
+ARVOS-Client Android with integration of the gameplay 3d library: https://github.com/ARVOS-APP/ArViewerGameplay
 
-ARVOS-Client iOS with 2d augments only: https://github.com/peterGraf/ArViewer_iOS
+ARVOS-Client iOS with 2d augments only: https://github.com/ARVOS-APP/ArViewer_iOS
 
 <UL>>> Directory Service</UL> 
 
