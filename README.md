@@ -3,7 +3,7 @@
 
 <B>Components</B>
 
-<UL>Client</UL>
+<UL>>> Client</UL>
 
 ARVOS-Client Android with 2d augments only: https://github.com/peterGraf/ArViewer_Android
 
@@ -11,7 +11,7 @@ ARVOS-Client Android with integration of the gameplay 3d library: https://github
 
 ARVOS-Client iOS with 2d augments only: https://github.com/peterGraf/ArViewer_iOS
 
-<UL>Directory Service</UL> 
+<UL>>> Directory Service</UL> 
 
 The ARVOS augments service: https://github.com/Omarasifshaikh/Arvos-server
 
