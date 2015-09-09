@@ -11,7 +11,7 @@ ARVOS-Client iOS with 2d augments only: https://github.com/peterGraf/ArViewer_iO
 
 The directory service: 
 
-The augments service: https://github.com/Omarasifshaikh/Arvos-server
+The ARVOS augments service: https://github.com/Omarasifshaikh/Arvos-server
 
 <B>System Description</B>
 
