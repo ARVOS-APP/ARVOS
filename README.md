@@ -3,9 +3,11 @@
 
 <B>Components</B>
 
-The Android version: https://github.com/peterGraf/ArViewer_Android
+ARVOS-Client Android with 2d augments only: https://github.com/peterGraf/ArViewer_Android
 
-The iOS Version: https://github.com/peterGraf/ArViewer_iOS
+ARVOS-Client Android with integration of the gameplay 3d library: https://github.com/peterGraf/ArViewerGameplay
+
+ARVOS-Client iOS with 2d augments only: https://github.com/peterGraf/ArViewer_iOS
 
 The directory service: 
 
