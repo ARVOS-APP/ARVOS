@@ -10,6 +10,8 @@ ARVOS ArViewer for Android with 2d augments only: https://github.com/ARVOS-APP/A
 
 ARVOS ArViewer for Android with integration of the gameplay 3d library: https://github.com/ARVOS-APP/ArViewerGameplay
 
+ARVOS ArViewer for Android with integration of the Ogre 3d library: https://github.com/ARVOS-APP/ArViewer3dOgre
+
 ARVOS ArViewer for iOS with 2d augments only: https://github.com/ARVOS-APP/ArViewer_iOS
 
 <UL><B>>> Directory Service</B></UL> 
