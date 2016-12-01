@@ -4,7 +4,7 @@
 
 <B>Components</B>
 
-<UL><B>>> Client</B></UL>
+<UL><B>>> Client Components</B></UL>
 
 ARVOS ArViewer for Android with 2d augments only: https://github.com/ARVOS-APP/ArViewer_Android
 
@@ -14,7 +14,9 @@ ARVOS ArViewer for Android with integration of the Ogre 3d library: https://gith
 
 ARVOS ArViewer for iOS with 2d augments only: https://github.com/ARVOS-APP/ArViewer_iOS
 
-<UL><B>>> Directory Service</B></UL> 
+<UL><B>>> Server Components</B></UL> 
+
+The ARVOS directory service C-implementation: https://github.com/ARVOS-APP/ArvosDirectoryService
 
 The ARVOS augments service: https://github.com/Omarasifshaikh/Arvos-server
 
