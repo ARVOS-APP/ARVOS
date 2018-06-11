@@ -6,19 +6,15 @@
 
 <UL><B>>> Client Components</B></UL>
 
+ARVOS ArViewer with integration of the Vuforia and Unity: https://github.com/ARVOS-APP/ArvosVun
+
 ARVOS ArViewer for Android with 2d augments only: https://github.com/ARVOS-APP/ArViewer_Android
-
-ARVOS ArViewer for Android with integration of the gameplay 3d library: https://github.com/ARVOS-APP/ArViewerGameplay
-
-ARVOS ArViewer for Android with integration of the Ogre 3d library: https://github.com/ARVOS-APP/ArViewer3dOgre
 
 ARVOS ArViewer for iOS with 2d augments only: https://github.com/ARVOS-APP/ArViewer_iOS
 
 <UL><B>>> Server Components</B></UL> 
 
 The ARVOS directory service C-implementation: https://github.com/ARVOS-APP/ArvosDirectoryService
-
-The ARVOS augments service: https://github.com/Omarasifshaikh/Arvos-server
 
 <B>System Description</B>
 
